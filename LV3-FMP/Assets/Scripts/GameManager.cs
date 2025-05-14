@@ -4,12 +4,14 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+
 public class GameManager : MonoBehaviour
 {
      public float timer;
      public float timeLimit;
      public TMP_Text timerText;
 
+   
 
 [Header("Collectables")]
 public int requiredCollectables;
