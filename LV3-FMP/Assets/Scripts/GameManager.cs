@@ -22,6 +22,8 @@ public TMP_Text collectablesText;
     void Start()
     {
         timer = timeLimit;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
